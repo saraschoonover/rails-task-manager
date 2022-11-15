@@ -1,0 +1,20 @@
+<h2>Here Is Your Task:</h2>
+<div class="card-container">
+<div class="card" style="width: 18rem;">
+      <div class="card-body">
+        <h5 class="card-title"><%= @task.title %></h5>
+        <h5 class="card-title"><%= @task.details %></h5>
+        <%= link_to edit_task_path do %>
+         <i class="fa-solid fa-pen-to-square"></i>
+         <% end %>
+        <%= link_to "Back to Tasks", tasks_path, class: "back-to" %>
+      </div>
+    </div>
+</div>
+
+ <h3><%= @task.title %></h3>
+<h3><%= @task.details %></h3>
+
+<%= link_to "edit", edit_task_path %>
+
+<%= link_to "Back to Tasks", tasks_path %> %>
