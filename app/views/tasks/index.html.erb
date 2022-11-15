@@ -15,4 +15,6 @@
   <% end %>
 
 
-<p><%= link_to "Create a new task", create_task_path %></p>
+<%= link_to create_task_path, class: "back-to" do %>
+<i class="fa-solid fa-user-plus"></i>
+<% end %>

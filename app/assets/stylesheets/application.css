@@ -22,6 +22,8 @@
   justify-content: center;
   align-items: center;
   color: #718355;
+  margin-top: 50px;
+  margin-bottom: 50px;
  }
 
  .card-container {
@@ -31,32 +33,42 @@
   margin: 20px;
  }
 
- p {
+ a {
   text-align: center;
   text-decoration: none;
   color: #718355;
+  font-size: large
  }
 
  .card {
   display: flex;
-  align-items: center;
+  text-align: center;
   margin-bottom: 10px;
   background-color: #cfe1b9;
   color: #718355;
  }
 
- .form {
+ form {
+  display: flex;
   text-align: center;
+  justify-content: center;
+ }
+
+ .card-body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  color: #718355;
+  background-color: #cfe1b9;
+
  }
 
  .card-title {
   color: #718355;
  }
 
- .fa-solid {
-  color: #718355;
- }
-
- .back_to {
-  color: #718355;
+ .btn {
+  background-color: #718355 !important;
+  border-color: #718355;
  }
